@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos da Pizzaria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Seus Pedidos Recentes</h1>
+
+        <h2>Pedidos Recentes</h2>
+        <ul id="pedidos-list"></ul>
+
+        <!-- Modal para informações do pedido -->
+        <div id="pedido-info-modal" class="modal">
+            <div class="modal-content">
+                <h2>Informações do Pedido</h2>
+                <p><strong>Nome:</strong> <span id="modal-nome"></span></p>
+                <p><strong>Endereço:</strong> <span id="modal-endereco"></span></p>
+                <button id="concluir-pedido">Concluir Pedido</button>
+                <button id="fechar-modal">Fechar</button>
+            </div>
+        </div>
+
+        <button id="logout-button">Sair</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
